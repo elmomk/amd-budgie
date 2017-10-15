@@ -2,15 +2,14 @@
 set -e
 ##################################################################################################################
 # Author 	: 	Erik Dubois
-# Website 	: 	http://www.erikdubois.be
-# Website	:	http://www.archmerge.com
-# Website	:	http://www.archmerged.com
+# Website 	: 	https://www.erikdubois.be
+# Website	:	https://www.archmerge.com
+# Website	:	https://www.archmerged.com
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-
 
 # use mirror if you have a slow connection
 sudo pacman -Syyu

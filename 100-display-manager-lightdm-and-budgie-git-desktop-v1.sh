@@ -2,9 +2,9 @@
 set -e
 ##################################################################################################################
 # Author 	: 	Erik Dubois
-# Website 	: 	http://www.erikdubois.be
-# Website	:	http://www.archmerge.com
-# Website	:	http://www.archmerged.com
+# Website 	: 	https://www.erikdubois.be
+# Website	:	https://www.archmerge.com
+# Website	:	https://www.archmerged.com
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -13,10 +13,10 @@ set -e
 
 # use mirror if you have a slow connection
 sudo pacman -Syyu
-sudo pacman -S gdm --noconfirm --needed
+sudo pacman -S lightdm lightdm-gtk-greeter --noconfirm --needed
 sudo pacman -S gnome --noconfirm --needed
 #sudo pacman -S budgie-desktop
 #packer budgie-desktop-git --noedit --noconfirm
 yaourt budgie-desktop-git --noconfirm
-sudo systemctl enable gdm.service -f
+sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
