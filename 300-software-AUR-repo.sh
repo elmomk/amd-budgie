@@ -34,11 +34,11 @@ sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
 sh AUR/install-pacli-v*.sh
 sh AUR/install-pamac-v*.sh
-sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-paper-icon-theme-git-v*.sh
+sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-peek-v*.sh
 sh AUR/install-radiotray-v*.sh
-sh AUR/install-sardi-v*.sh
+sh AUR/install-sardi-icons-v*.sh
 sh AUR/install-screenkey-v*.sh
 sh AUR/install-simplescreenrecorder-v*.sh
 sh AUR/install-skypeforlinux-bin-v*.sh
@@ -46,13 +46,17 @@ sh AUR/install-spotify-v*.sh
 sh AUR/install-sublime-text-v*.sh
 sh AUR/install-teamviewer-v*.sh
 sh AUR/install-temps-v*.sh
-sh AUR/install-ttf-font-awesome-v*.s
+sh AUR/install-ttf-font-awesome-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
 sh AUR/install-virtualbox-for-linux-kernel-v*.sh
-sh AUR/install-vivaldi-v*.sh
 #sh AUR/install-virtualbox-for-linux-lts-kernel-v*.sh
-sh AUR/install-zsh-v*.sh
+sh AUR/install-vivaldi-v*.sh
 
+# these come last always
+
+sh AUR/install-hardcode-fixer-git-v*.sh
+sudo hardcode-fixer
+sh AUR/install-zsh-v*.sh
 
 echo "################################################################"
 echo "####        Software from AUR Repository installed        ######"
