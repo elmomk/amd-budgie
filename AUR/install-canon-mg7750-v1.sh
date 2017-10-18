@@ -14,6 +14,8 @@ set -e
 
 program="cnijfilter2-mg7700"
 
+#----------------------------------------------------------------------------------
+
 if which pacaur &> /dev/null; then
 
 	echo "Installing with pacaur"

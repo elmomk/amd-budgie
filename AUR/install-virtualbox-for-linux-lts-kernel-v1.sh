@@ -15,9 +15,7 @@ sudo pacman -S --noconfirm --needed virtualbox-host-dkms
 sudo pacman -S --noconfirm --needed linux-headers
 sudo pacman -S --noconfirm --needed linux-lts-headers
 
-
 package="virtualbox"
-command="virtualbox"
 
 #----------------------------------------------------------------------------------
 
@@ -37,20 +35,20 @@ else
 		packer -S --noconfirm --noedit  $package
 
 	elif pacman -Qi pacaur &> /dev/null; then
-		
+
 		echo "Installing with pacaur"
 		pacaur -S --noconfirm --noedit  $package
-		 	
+
 	elif pacman -Qi yaourt &> /dev/null; then
 
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
-			  	
+
 	fi
 
 	# Just checking if installation was successful
 	if pacman -Qi $package &> /dev/null; then
-	
+
 	echo "################################################################"
 	echo "#########  "$package" has been installed"
 	echo "################################################################"
@@ -68,5 +66,5 @@ fi
 
 
 echo "################################################################"
-echo "#########           You got to reboot.                 #########" 
+echo "#########           You got to reboot.                 #########"
 echo "################################################################"

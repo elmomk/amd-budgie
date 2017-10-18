@@ -21,6 +21,7 @@ sh AUR/install-brackets-v*.sh
 sh AUR/install-breeze-cursor-v*.sh
 sh AUR/install-canon-mg7750-v*.sh
 sh AUR/install-cool-retro-term-v*.sh
+sh AUR/install-downgrade-v*.sh
 sh AUR/install-dropbox-v*.sh
 sh AUR/install-gnome-screenshot-v*.sh
 sh AUR/install-gradio-v*.sh

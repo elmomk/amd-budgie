@@ -18,7 +18,6 @@ echo " then in terminal -- insync start"
 echo "Press enter to continue"; read dummy;
 
 package="insync"
-command="insync"
 
 #----------------------------------------------------------------------------------
 
@@ -38,20 +37,20 @@ else
 		packer -S --noconfirm --noedit  $package
 
 	elif pacman -Qi pacaur &> /dev/null; then
-		
+
 		echo "Installing with pacaur"
 		pacaur -S --noconfirm --noedit  $package
-		 	
+
 	elif pacman -Qi yaourt &> /dev/null; then
 
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
-			  	
+
 	fi
 
 	# Just checking if installation was successful
 	if pacman -Qi $package &> /dev/null; then
-	
+
 	echo "################################################################"
 	echo "#########  "$package" has been installed"
 	echo "################################################################"
