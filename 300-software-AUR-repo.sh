@@ -15,12 +15,12 @@ set -e
 # https://aur.archlinux.org/packages/
 
 
-sh AUR/install-all-icons-sardi-extra-packer-v*.sh
+sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-all-plank-themes-v*.sh
-sh AUR/install-arc-gtk-theme-v*.sh
+sh AUR/install-arc-gtk-theme-git-v*.sh
 sh AUR/install-brackets-v*.sh
-sh AUR/install-breeze-cursor-v*.sh
-sh AUR/install-canon-mg7750-v*.sh
+sh AUR/install-xcursor-breeze-v*.sh
+#sh AUR/install-canon-mg7750-v*.sh
 sh AUR/install-conky-aureola-v*.sh
 sh AUR/install-cool-retro-term-v*.sh
 sh AUR/install-downgrade-v*.sh
