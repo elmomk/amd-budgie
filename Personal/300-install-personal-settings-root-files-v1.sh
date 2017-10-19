@@ -11,14 +11,7 @@ set -e
 #
 ##################################################################################################################
 
-
-echo "Moving files to start i3wm"
-echo "Using Sardi icons, Arc theme and noto font from previous scripts"
-
-cp settings/root/* ~/
-cp settings/bookmarks ~/.config/gtk-3.0/
-cp settings/settings.ini ~/.config/gtk-3.0/
-
+cp -rf settings/root/ ~/
 
 echo "################################################################"
 echo "#########      root files copied                ################"
