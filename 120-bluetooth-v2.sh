@@ -14,19 +14,20 @@ set -e
 # installing bluetooth software
 
 sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
-sudo pacman -S --noconfirm --needed bluez bluez-libs bluez-utils bluez-firmware
+sudo pacman -S --noconfirm --needed bluez
+sudo pacman -S --noconfirm --needed bluez-libs
+sudo pacman -S --noconfirm --needed bluez-utils
+sudo pacman -S --noconfirm --needed bluez-firmware
 #in gnome-budgie we rely on this application
 sudo pacman -S --noconfirm --needed gnome-bluetooth
 #sudo pacman -S --noconfirm --needed blueberry pavucontrol
 
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
-sudo systemctl daemon-reload
-
 
 echo "reboot your system then ..."
 echo "set with bluetooth icon in bottom right corner"
-echo "change with pavucontrol to have a2dp sink"
+echo "change to have a2dp if needed"
 
 
 echo "################################################################"
