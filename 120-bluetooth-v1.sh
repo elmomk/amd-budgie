@@ -13,7 +13,11 @@ set -e
 
 # installing bluetooth software
 
-sudo pacman -S --noconfirm --needed pulseaudio-alsa pulseaudio-bluetooth bluez bluez-libs bluez-utils bluez-firmware blueberry pavucontrol
+sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
+sudo pacman -S --noconfirm --needed bluez bluez-libs bluez-utils bluez-firmware
+#in gnome-budgie we rely on this application
+sudo pacman -S --noconfirm --needed gnome-bluetooth
+#sudo pacman -S --noconfirm --needed blueberry pavucontrol
 
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
