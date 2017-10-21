@@ -14,9 +14,9 @@ set -e
 # software from AUR (Arch User Repositories)
 # https://aur.archlinux.org/packages/
 
-#giving tmp folder one extra gb in order not to run out of disk space while installing software
-
-sudo mount -o remount,size=5G,noatime /tmp
+#giving tmp folder extra gb in order not to run out of disk space while installing software
+#only if you run into issues with that
+#sudo mount -o remount,size=5G,noatime /tmp
 
 sh AUR/install-all-plank-themes-v*.sh
 sh AUR/install-arc-gtk-theme-git-v*.sh
