@@ -85,3 +85,7 @@ fi
 
 sudo systemctl enable gdm.service -f
 sudo systemctl set-default graphical.target
+
+echo "Remove anything you do not like from the gnome package"
+
+sudo pacman -R gnome-backgrounds
