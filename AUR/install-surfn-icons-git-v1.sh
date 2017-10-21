@@ -28,9 +28,8 @@ else
 	if pacman -Qi yaourt &> /dev/null; then
 
 		echo "Installing with yaourt"
-		yaourt -S --noconfirm $package --tmp ~/.cache
+		yaourt -S --noconfirm $package
 		
-
 	elif pacman -Qi pacaur &> /dev/null; then
 
 		echo "Installing with pacaur"
