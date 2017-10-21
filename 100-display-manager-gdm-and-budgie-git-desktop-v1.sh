@@ -11,7 +11,10 @@ set -e
 #
 ##################################################################################################################
 
-# use mirror if you have a slow connection
+echo "If it feels like the downloads are too slow"
+echo "Stop the installation with CTRL + C"
+echo "and run the alias - mirror"
+
 sudo pacman -Syyu
 sudo pacman -S gdm --noconfirm --needed
 sudo pacman -S gnome --noconfirm --needed
