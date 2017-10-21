@@ -18,7 +18,6 @@ set -e
 
 sudo mount -o remount,size=5G,noatime /tmp
 
-sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-all-plank-themes-v*.sh
 sh AUR/install-arc-gtk-theme-git-v*.sh
 sh AUR/install-brackets-v*.sh
@@ -42,6 +41,7 @@ sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-peek-v*.sh
 sh AUR/install-radiotray-v*.sh
 sh AUR/install-sardi-icons-v*.sh
+sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-screenkey-v*.sh
 sh AUR/install-simplescreenrecorder-v*.sh
 sh AUR/install-skypeforlinux-bin-v*.sh
