@@ -24,7 +24,7 @@ sudo pacman -S system-config-printer --noconfirm --needed
 
 sudo systemctl enable org.cups.cupsd.service
 
-echo "now reboot"
+echo "After rebooting it will work"
 
 echo "################################################################"
 echo "#########   printer management software installed     ##########"
