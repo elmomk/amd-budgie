@@ -26,7 +26,7 @@ sudo pacman -S gnome --noconfirm --needed
 #pacaur -S budgie-desktop-git --noconfirm --noedit
 
 echo "################################################################"
-echo "budgie-desktop-git"
+echo "budgie-desktop-git installation"
 echo "################################################################"
 
 
