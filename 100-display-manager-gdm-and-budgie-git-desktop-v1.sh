@@ -13,7 +13,7 @@ set -e
 
 echo "If it feels like the downloads are too slow"
 echo "Stop the installation with CTRL + C"
-echo "and run the alias - mirror"
+echo "and run the alias - mirror in the terminal"
 
 sudo pacman -Syyu
 sudo pacman -S gdm --noconfirm --needed
