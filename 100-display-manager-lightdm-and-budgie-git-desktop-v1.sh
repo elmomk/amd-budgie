@@ -19,7 +19,7 @@ sudo pacman -Syyu
 sudo pacman -S lightdm lightdm-gtk-greeter --noconfirm --needed
 sudo pacman -S gnome --noconfirm --needed
 #sudo pacman -S budgie-desktop
-packer budgie-desktop-git --noedit --noconfirm
-#pacaur -S budgie-desktop-git --noconfirm --noedit
+#packer budgie-desktop-git --noedit --noconfirm
+pacaur -S budgie-desktop-git --noconfirm --noedit
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
