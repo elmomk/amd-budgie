@@ -18,8 +18,10 @@ sudo systemctl enable smbd.service
 sudo systemctl start smbd.service
 sudo systemctl enable nmbd.service
 sudo systemctl start nmbd.service
+
 ##Change your username here
-sudo smbpasswd -a erik
+read -p "What is your login? It will be used to add this user to smb : " choice
+sudo smbpasswd -a $choice
 
 #access samba share windows
 sudo pacman -S --noconfirm --needed gvfs-smb
@@ -89,7 +91,13 @@ fi
 
 
 echo "Run system-config-samba to set up shares"
-
+echo "You will be able to connect to this computer with the login and password you created"
+echo "You will need to edit /etc/samba/smb.conf"
+echo "Scroll down to bottom"
+echo "Example code is in there"
+echo "Create a folder with name 'SHARED' in your homefolder."
+echo "Make sure you delete all the ; in those lines."
+echo "Reboot and enjoy"
 
 echo "################################################################"
 echo "#########   samba  software installed           ################"
