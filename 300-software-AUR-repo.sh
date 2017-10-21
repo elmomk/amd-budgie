@@ -14,6 +14,9 @@ set -e
 # software from AUR (Arch User Repositories)
 # https://aur.archlinux.org/packages/
 
+#giving tmp folder one extra gb in order not to run out of disk space while installing software
+
+sudo mount -o remount,size=5G,noatime /tmp
 
 sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-all-plank-themes-v*.sh
