@@ -58,3 +58,7 @@ else
 	fi
 
 fi
+
+echo "If you get an error, then run me twice"
+echo "I am special that way"
+echo "Then I will be installed"
