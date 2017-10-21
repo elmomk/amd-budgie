@@ -32,7 +32,7 @@ sh AUR/install-insync-v*.sh
 sh AUR/install-mintstick-git-v*.sh
 sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
-sh AUR/install-pacli-v*.sh
+#sh AUR/install-pacli-v*.sh
 sh AUR/install-pamac-v*.sh
 sh AUR/install-paper-icon-theme-git-v*.sh
 sh AUR/install-papirus-icon-theme-git-v*.sh
