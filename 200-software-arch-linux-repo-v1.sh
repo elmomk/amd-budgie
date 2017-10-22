@@ -14,7 +14,7 @@ set -e
 # software from standard Arch Linux repositories
 # Core, Extra, Community, Multilib repositories
 
-sudo pacman -S --noconfirm --needed archey3 atom baobab bleachbit catfish clementine conky curl
+sudo pacman -S --noconfirm --needed archey3 atom baobab bleachbit catfish chromium clementine conky curl
 sudo pacman -S --noconfirm --needed darktable dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode
 sudo pacman -S --noconfirm --needed evince evolution filezilla firefox
