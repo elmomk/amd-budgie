@@ -11,15 +11,11 @@ set -e
 #
 ##################################################################################################################
 
+echo "Network Discovery"
 
 sudo pacman -S --noconfirm --needed avahi
 sudo systemctl enable avahi-daemon.service
 sudo systemctl start avahi-daemon.service
-
-sudo pacman -S --noconfirm --needed nmbd
-sudo systemctl enable nmbd.service
-sudo systemctl start nmbd.service
-
 
 
 echo "################################################################"
