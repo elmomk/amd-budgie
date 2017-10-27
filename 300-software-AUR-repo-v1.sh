@@ -46,6 +46,7 @@ sh AUR/install-simplescreenrecorder-v*.sh
 sh AUR/install-skypeforlinux-bin-v*.sh
 sh AUR/install-spotify-v*.sh
 sh AUR/install-sublime-text-v*.sh
+sh AUR/install-surfn-icons-git-v*.sh
 #sh AUR/install-teamviewer-v*.sh
 sh AUR/install-temps-v*.sh
 sh AUR/install-ttf-font-awesome-v*.sh
