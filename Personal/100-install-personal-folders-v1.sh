@@ -36,5 +36,5 @@ echo "Creating all folders"
 
 
 echo "################################################################"
-echo "#########       personal folders copied         ################"
+echo "###       personal folders created or existed already       ####"
 echo "################################################################"
